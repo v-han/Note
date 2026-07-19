@@ -1,5 +1,5 @@
 ---
-updated: 2026-03-31 00:31
+updated: 2026-07-17 16:13
 created: 2026-03-30 00:05
 tags:
   - SubGuide
@@ -11,5 +11,5 @@ tags:
 # 所有文件
 ```dataview
 table updated, created, tags
-from "Note/操作系统"
+from "Note/课程/操作系统"
 ```
