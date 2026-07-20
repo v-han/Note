@@ -1,5 +1,5 @@
 ---
-updated: 2026-07-07 17:04
+updated: 2026-07-20 22:52
 created: 2026-04-07 00:54
 tags:
 ---
@@ -27,9 +27,6 @@ target_sources(Hello
 	PRIVATE HelloWorld.cxx
 )
 ```
-
-
-
 
 可以看看[[CMakeLists例子|入门例子]]。
 

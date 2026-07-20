@@ -1,5 +1,5 @@
 ---
-updated: 2026-07-19 16:38
+updated: 2026-07-19 20:29
 created: 2026-07-19 16:11
 tags:
 ---
@@ -10,7 +10,7 @@ async函数使使用`async`关键字声明的函数。async函数使AsyncFunctio
 ```JavaScript
 async function getData() {
 	const cObj = await axios({url:'http://127.0.0.0:80/class'})
-	const name = obj.data.name
+	const name = cObj.data.name
 	const uObj = await axios({url:'http://127.0.0.0:80/user', params:{ name }})
 }
 ```
