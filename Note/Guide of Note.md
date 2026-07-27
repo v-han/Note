@@ -1,5 +1,5 @@
 ---
-updated: 2026-07-16 14:51
+updated: 2026-07-26 14:29
 created: 2026-03-27 01:02
 tags:
   - Guide
@@ -19,6 +19,7 @@ tags:
 [[AJAX Guide]]
 [[Vue Guide]]
 ## 其他：
+[[STM32 Guide]]
 [[Git Guide]]
 [[RISC-V Guide]]
 [[Zettelkasten]]
