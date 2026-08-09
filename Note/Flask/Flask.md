@@ -1,10 +1,10 @@
 ---
-updated: 2026-07-20 22:54
+updated: 2026-08-08 09:51
 created: 2026-07-08 17:46
 tags:
 ---
 # 介绍
-Flask是[[Python Guide|Python]]的一个Web框架。
+Flask是[[Python]]的一个Web框架。
 # 开发步骤
 使用前需要导入Flask框架。
 ```Python
