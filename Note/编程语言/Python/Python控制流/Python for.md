@@ -1,5 +1,5 @@
 ---
-updated: 2026-08-09 13:51
+updated: 2026-08-11 22:43
 created: 2026-08-09 13:42
 tags:
 ---
@@ -11,6 +11,10 @@ tags:
 # for 元素 in 待处理的数据集:
 for i in range(1, 4):
 	print(i)
+	
+# 以列表为例，遍历其中的元素
+for item in list1:
+	print(item)
 ```
 
 在`for`循环之后也可以加上`else`，表示循环结束之后要执行的程序。
@@ -21,3 +25,4 @@ else:
 	print("Loop ends")
 ```
 # 相关
+与`for`配合使用较多的[[Python range|range]]。
