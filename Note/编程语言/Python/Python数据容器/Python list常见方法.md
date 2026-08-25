@@ -1,10 +1,10 @@
 ---
-updated: 2026-08-12 21:23
+updated: 2026-08-19 13:54
 created: 2026-08-12 21:23
 tags:
 ---
 # 介绍
-[[Python list]]的常见方法。
+**Python list**的常见方法。
 # 使用方式
 使用`append()`在列表的尾部添加元素。
 ```python

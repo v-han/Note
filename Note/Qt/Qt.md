@@ -1,11 +1,19 @@
 ---
-updated: 2026-08-13 22:44
+updated: 2026-08-24 19:51
 created: 2026-08-13 19:17
 tags:
 ---
 # 介绍
 Qt是一个 **C++** 跨平台应用程序开发框架。
 Qt不仅仅是[[GUI]]库还是一个完整的开发生态。
-这部分笔记来自[明王讲Qt](https://www.bilibili.com/video/BV14puB65EZc/?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=caedb35a1b601f1d5184d2b7fbb4c8ec)的视频。其对应的[笔记](https://www.qt1024.cn/qt_basic/)。
+这部分笔记来自[明王讲Qt](https://www.bilibili.com/video/BV14puB65EZc/?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=caedb35a1b601f1d5184d2b7fbb4c8ec)的视频和其对应的[笔记](https://www.qt1024.cn/qt_basic/)。
+# 使用方式
+[[Qt项目构建流程]]
+[[信号与槽]]
+`Qt`中的窗口类有**3**个，分别是`QWidget`、`QMainWindow`和`QDialog`。
+> [!NOTE]
+> `Qt`中，`QWidget`类是所有窗口类的基类。
+
+
 # 相关
-这是[官网](https://www.qt.io/)。
+这是[Qt官网](https://www.qt.io/)。

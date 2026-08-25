@@ -1,5 +1,5 @@
 ---
-updated: 2026-07-20 22:52
+updated: 2026-08-18 18:32
 created: 2026-04-07 00:54
 tags:
 ---
@@ -29,5 +29,5 @@ target_sources(Hello
 ```
 
 可以看看[[CMakeLists例子|入门例子]]。
-
 # 相关
+[[CMakeLang]]

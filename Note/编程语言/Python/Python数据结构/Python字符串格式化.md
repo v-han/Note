@@ -1,5 +1,5 @@
 ---
-updated: 2026-08-08 13:05
+updated: 2026-08-19 13:40
 created: 2026-08-08 12:53
 tags:
 ---
@@ -19,5 +19,13 @@ print("name:%s, age:%s" % ("Tom", 20))
 name = "Tom"
 age = 20
 print(f"name:{ name }, age:{ age }")
+```
+
+在这种情况下，可以使用`:`来格式化参数的格式。
+```python
+name = "Tom"
+score = 79.999
+# score:.1f 表示保留一位小数
+print(f"name:{ name }, score:{ score:.1f }")
 ```
 # 相关
