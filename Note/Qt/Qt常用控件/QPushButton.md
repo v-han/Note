@@ -1,10 +1,10 @@
 ---
-updated: 2026-08-30 10:54
+updated: 2026-09-04 23:59
 created: 2026-08-29 13:23
 tags:
 ---
 # 介绍
-**QPushButton**是**Qt**中的按钮控件，用于响应用户的点击然后执行对应的操作。
+**QPushButton**是**Qt**中的按钮控件，用于响应用户的点击然后执行对应的操作。继承自[[QAbstractButton]]。
 # 使用方式
 [[QPushButton常用方法]]。
 

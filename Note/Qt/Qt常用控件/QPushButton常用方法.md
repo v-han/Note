@@ -1,19 +1,11 @@
 ---
-updated: 2026-08-29 13:45
+updated: 2026-09-04 23:59
 created: 2026-08-29 13:45
 tags:
 ---
 # 介绍
 **QPushButton**的常用方法。
 # 使用方式
-使用`text()`和`setText()`来控制按钮上的文本。
-```cpp
-// 获取文本
-QString text() const
-// 设置文本
-void setText(const QString &text)
-```
-
 使用`icon()`和`setIcon()`来控制按钮上的图标。
 ```cpp
 // 获取图标
