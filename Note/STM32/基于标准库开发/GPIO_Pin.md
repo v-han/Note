@@ -1,27 +1,27 @@
 ---
-updated: 2026-08-01 16:22
+updated: 2026-09-10 23:51
 created: 2026-07-26 21:47
 tags:
 ---
 # 介绍
-[[基于标准库开发]]的GPIO引脚配置。
+**基于标准库开发**的[[GPIO 标准库配置|GPIO]]的**引脚**配置。
 # 使用方式
-在定义的**GPIO**配置结构体中配置**GPIO_Pin**的值。
-```C
+在**GPIO**初始化结构体中为`GPIO_Pin`赋值。
+```c
 GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;
-```
-
-在使用多个引脚的使用可以使用`|`符号连接。
-```C
+// 使用 | 来选中多个引脚
 GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0 | GPIO_Pin_1;
 ```
 
-> [!NOTE]
-> 这是按位与操作，将对应位的值变为1表示使用该端口。
-
-若需要使用全部端口可以使用`GPIO_Pin_ALL`。
-```C
-GPIO_InitStructure.GPIO_Pin = GPIO_Pin_ALL;
+**GPIO**的**引脚**配置本质是16位的无符号数。
+```c
+#define GPIO_Pin_0  ((uint16_t)0x0001)
+#define GPIO_Pin_1  ((uint16_t)0x0002)
+#define GPIO_Pin_2  ((uint16_t)0x0004)
+#define GPIO_Pin_3  ((uint16_t)0x0008)
+// 省略中间的
+#define GPIO_Pin_15  ((uint16_t)0x8000)
+#define GPIO_Pin_All ((uint16_t)0xFFFF)
 ```
 
 > [!WARNING]

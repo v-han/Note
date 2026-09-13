@@ -1,5 +1,5 @@
 ---
-updated: 2026-08-02 18:42
+updated: 2026-09-13 19:18
 created: 2026-07-22 20:45
 tags:
 ---
@@ -14,7 +14,7 @@ tags:
 | [[GPIO]]    | 通用IO口     | CRC     | CRC校验    |
 | [[AFIO]]    | 复用IO口     | PWR     | 电源控制     |
 | [[EXTI]]    | 外部中断      | BKP     | 备份寄存器    |
-| TIM         | 定时器       | IWDG    | 独立看门狗    |
+| [[TIM]]     | 定时器       | IWDG    | 独立看门狗    |
 | ADC         | 模数转换器     | WWDG    | 窗口看门狗    |
 | DMA         | 直接内存访问    | DAC     | 数模转换器    |
 | USART       | 同步/异步串口通信 | SDIO    | SD卡接口    |

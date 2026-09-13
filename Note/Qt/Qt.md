@@ -1,5 +1,5 @@
 ---
-updated: 2026-08-28 18:29
+updated: 2026-09-09 13:43
 created: 2026-08-13 19:17
 tags:
 ---
@@ -13,4 +13,4 @@ Qt不仅仅是[[GUI]]库还是一个完整的开发生态。
 [[Qt布局]]
 [[Qt常用控件]]
 # 相关
-这是[Qt官网](https://www.qt.io/)。
+这是[Qt官网](https://www.qt.io/)，以及[Qt文档](https://doc.qt.io/qt-6/zh/)。
