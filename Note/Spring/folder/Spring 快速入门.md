@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-01 23:01
+updated: 2026-09-19 22:45
 created: 2026-04-16 23:45
 tags:
 ---
@@ -68,8 +68,6 @@ public class UserDaoDemo {
 }
 ```
 
-
 > [!NOTE]
 > 这里`getBean()`方法使用Bean的id时需要类型转换。使用类输入时不需要，例如：`getBean(UserDao.class)`。
-
 # 相关

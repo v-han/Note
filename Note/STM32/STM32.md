@@ -1,10 +1,10 @@
 ---
-updated: 2026-07-31 21:14
+updated: 2026-09-14 22:21
 created: 2026-07-17 16:14
 tags:
 ---
 # 介绍
-STM是意法半导体公司(STMicroeletronics，简称ST)设计的以[[ARM]] Cortex-M为核心的32位微控制器。
+**STM**是意法半导体公司(STMicroeletronics，简称ST)设计的以[[ARM]] **Cortex-M**为核心的32位微控制器。
 # 开发模式
 [[基于寄存器开发]]：对硬件理解深入，但开发和移植不方便。
 [[基于标准库开发]]：介于两者之间。

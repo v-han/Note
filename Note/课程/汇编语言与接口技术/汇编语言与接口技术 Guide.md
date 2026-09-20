@@ -1,5 +1,5 @@
 ---
-updated: 2026-04-24 19:11
+updated: 2026-09-14 18:30
 created: 2026-04-07 21:38
 tags:
   - SubGuide
@@ -11,5 +11,5 @@ tags:
 # 所有文件
 ```dataview
 table updated, created, tags
-from "Note/汇编语言与接口技术"
+from "Note/课程/汇编语言与接口技术"
 ```

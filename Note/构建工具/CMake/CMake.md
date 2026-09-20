@@ -1,11 +1,10 @@
 ---
-updated: 2026-08-18 18:32
+updated: 2026-09-16 12:13
 created: 2026-04-05 01:39
 tags:
 ---
 # 介绍
-C语言的构建工具。
-[CMake的官方教程](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+**C**语言的构建工具。
 可以在[这里](https://cmake.org/cmake/help/latest/_downloads/cbf94aae014abbf165268dcf2faa3608/cmake-4.3.1-tutorial-source.zip)下载到教学资源。
 # 使用方式
 使用`cmake -S`命令指定项目的根目录，这个目录下要包含一个[[CMakeLists书写要求|CMakeLists.txt]]文件。
@@ -36,3 +35,4 @@ cmake --build build
 
 使用`build`构建目录对项目进行构建。
 # 相关
+[CMake的官方教程](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
