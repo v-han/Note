@@ -1,12 +1,11 @@
 ---
-updated: 2026-08-02 09:28
+updated: 2026-09-27 02:23
 created: 2026-07-31 09:29
 tags:
   - SubGuide
 ---
 # 导航
-[[RUST简介]]
-[[RUST]]
+[[Rust]]
 # 所有文件
 ```dataview
 table updated, created, tags

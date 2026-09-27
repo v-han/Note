@@ -1,5 +1,5 @@
 ---
-updated: 2026-09-19 21:11
+updated: 2026-09-23 14:24
 created: 2026-09-19 01:39
 tags:
 ---
@@ -8,10 +8,10 @@ tags:
 该笔记来源于[黑马程序员]([https://www.bilibili.com/video/BV1rV411M7eU/?spm_id_from=333.788.videopod.episodes&vd_source=caedb35a1b601f1d5184d2b7fbb4c8ec](https://www.bilibili.com/video/BV1Fi4y1S7ix/?spm_id_from=333.788.videopod.episodes&vd_source=caedb35a1b601f1d5184d2b7fbb4c8ec))。
 # 使用方式
 [[Spring Core]]
+[[Spring AOP]]
 
-[[Spring 配置文件]]
-[[Spring API]]
 [[Spring 配置数据源]]
+[[Spring集成Junit]]
 # 相关
 [Spring官网](https://spring.io/)
 [[Spring简介]]

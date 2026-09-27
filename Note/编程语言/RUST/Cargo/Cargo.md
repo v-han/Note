@@ -1,10 +1,10 @@
 ---
-updated: 2026-07-31 20:49
+updated: 2026-09-27 16:56
 created: 2026-07-31 20:15
 tags:
 ---
 # 介绍
-**Cargo**是[[RUST]]的构建系统和包管理工具。安装**RUST**时会同时安装**Cargo**，因此不需要额外的安装。
+**Cargo**是[[Rust]]的构建系统和包管理工具。安装**RUST**时会同时安装**Cargo**，因此不需要额外的安装。
 # 使用方式
 使用**Cargo**创建项目。
 ```bash
@@ -22,12 +22,12 @@ cargo new <ProjectName>
 cargo build
 ```
 
-使用后会出现出现构建目标目录(target)和[[Cargo.lock]]文件。
+使用后会出现出现构建**目标目录**(target)和[[Cargo.lock]]文件。
 
 > [!NOTE]
 > 可以加上`--release`选项为发布构建，这样运行速度快，但编译时间会加长。
 
-构建并运行Cargo项目。
+构建并运行**Rust**项目。
 ```bash
 cargo run
 ```
