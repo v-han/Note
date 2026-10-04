@@ -1,5 +1,5 @@
 ---
-updated: 2026-09-25 02:48
+updated: 2026-09-30 13:15
 created: 2026-09-25 01:33
 tags:
 ---
@@ -9,14 +9,17 @@ tags:
 在类型前加上`mut`表示该引用数据类型时可变的。
 ```rust
 // 原本的变量也必须是可变的
-let mut s1 = String::from("hello");
-// &mut String 表示是可变的引用类型
-// &mut s1 表示取到 s1 的可变引用变量
-let s2: &mut String = &mut s1;
+let mut x = 3;
+// &mut i32 表示是可变的引用类型
+// &mut x 表示取到 x 的可变引用变量
+let y: &mut i32 = &mut x;
+
+// 通过解引用的方式对数据进行操作
+*y += 1;
 ```
 
 > [!NOTE]
-> 在一个作用域中，一个可变变量**只能**存在一个可变的引用变量，且有了可变引用也无法创建**普通引用**。
+> 在任何一个作用域中，只能存在一个可变引用**或**多个不可变引用。
 > ```rust
 > let mut s = String::from("hello");
 > let s1 = &mut s;
@@ -24,4 +27,12 @@ let s2: &mut String = &mut s1;
 > // let s2 = &mut s;
 > // let s3 = &s;
 > ```
+
+**可变引用**可通过以下的方式临时降级为**不可变引用**，被称为**重新借用**(reborrow)。
+```rust
+let mut x = 3;
+let y = &mut x;
+// 此时 z 和 y 都是不可变的引用，在 z 借用结束前都不可修改
+let z = &*y;
+```
 # 相关

@@ -1,12 +1,12 @@
 ---
-updated: 2026-09-27 18:09
+updated: 2026-10-02 17:48
 created: 2026-09-27 17:46
 tags:
 ---
 # 介绍
 **Rust**没有`Null`的类型，使用**Option**的方式使程序员考虑值可能不存在的情况。
 # 使用方式
-`Option`是**Rust**的一个枚举类，其定义如下。
+`Option`是**Rust**的一个**枚举类**，其定义如下。
 ```rust
 enum Option<T> {
 	Some(T),
@@ -23,3 +23,4 @@ let some_string = Some("A String");
 let none_number: Option<i32> = None;
 ```
 # 相关
+[[Rust Unwrap和Expect]]

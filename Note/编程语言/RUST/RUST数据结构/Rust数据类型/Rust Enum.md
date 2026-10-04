@@ -1,5 +1,5 @@
 ---
-updated: 2026-09-27 20:04
+updated: 2026-10-02 16:56
 created: 2026-09-27 16:58
 tags:
 ---
@@ -42,6 +42,7 @@ enum Message {
 
 和**结构体**一样，枚举类也能使用`impl`定义方法，和[[Rust Struct方法|结构体定义方法]]类似。
 
-可以使用**模式匹配**([[Rust match|match]]、[[Rust if let|if let]])对枚举类进行匹配，执行枚举对应分支
+可以使用**模式匹配**([[Rust match|match]]、[[Rust if let|if let]])对**枚举类**进行匹配，执行枚举对应分支。
 # 相关
-[[Rust Option枚举|Option枚举]]
+[[Rust Option|Option枚举]]
+[[Rust Result|Result枚举]]

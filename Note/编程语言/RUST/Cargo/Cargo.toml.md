@@ -1,5 +1,5 @@
 ---
-updated: 2026-09-26 16:22
+updated: 2026-10-01 01:12
 created: 2026-07-31 20:25
 tags:
 ---
@@ -10,10 +10,10 @@ tags:
 - **name**：项目名。
 - **version**：项目版本。
 - **authors**：项目作者。
-- **edition**：使用的RUST版本。
+- **edition**：使用的**RUST**版本。
 
 区域标题`[dependencies]`，表示下方内容是项目的依赖项。
 
 > [!NOTE]
-> 在**RUST**中依赖称作[[crate]]
+> 在**RUST**中依赖称作[[Crate]]
 # 相关

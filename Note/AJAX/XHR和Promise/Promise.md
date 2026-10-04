@@ -1,13 +1,13 @@
 ---
-updated: 2026-07-19 15:57
+updated: 2026-10-03 01:31
 created: 2026-07-19 12:24
 tags:
 ---
 # 介绍
-Promise对象用于表示一个异步操作最终完成(或失败)及其结果。
+**Promise**对象用于表示一个异步操作最终完成(或失败)及其结果。
 # 使用方式
-创建一个Promise对象。
-```JavaScript
+创建一个**Promise**对象。
+```js
 const p = new Promise((resolve, reject) => {
 	// 执行异步代码，用等待方式模拟耗时代码。
 	setTimeout(() => {
