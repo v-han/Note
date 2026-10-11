@@ -1,5 +1,5 @@
 ---
-updated: 2026-10-04 20:08
+updated: 2026-10-11 23:51
 created: 2026-07-31 12:18
 tags:
 ---
@@ -11,14 +11,16 @@ tags:
 ## Rust使用
 [[Rust变量]]、[[Rust数据类型]]
 [[Rust控制流]]
-[[Rust函数]]
-[[Rust泛型]]
+[[Rust函数]]、[[Rust泛型]]
 [[Rust错误处理]]
-[[Rust自动测试]]
+[[Rust测试]]
+[[Rust并发]]
+[[Rust Trait Object|Rust面向对象]]
 
 ## Rust特点
 [[Rust所有权]]
 [[Rust代码组织]]
+[[Rust模式
 [[Rust Trait]]
 
 # 相关

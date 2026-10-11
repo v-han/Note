@@ -1,5 +1,5 @@
 ---
-updated: 2026-10-04 21:07
+updated: 2026-10-04 23:01
 created: 2026-10-04 20:45
 tags:
 ---
@@ -34,5 +34,20 @@ fn test_fun() {
 
 // 可以加上 expected 期待指定的 panic 错误。
 #[should_panic(expected = "xx错误")]
+```
+
+使用[[Rust Result|Result]]的方式，返回`ok(())`表示通过测试，返回`Err()`表示出现错误。方便使用`?`运算符进行[[Rust传播错误|错误传播]]，但是与`#[should_panic]`不兼容。
+```rust
+#[test]
+fn test_fun() -> Result<(), String> {
+	// 略过过程
+	if res == 3 {
+		// 表示通过测试
+		Ok(())
+	} else {
+		// 表示出现错误
+		Err("it has Err".to_string())
+	}
+}
 ```
 # 相关

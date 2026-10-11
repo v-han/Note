@@ -1,5 +1,5 @@
 ---
-updated: 2026-10-04 01:31
+updated: 2026-10-06 14:49
 created: 2026-10-04 01:21
 tags:
 ---
@@ -20,11 +20,12 @@ fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
 
 // Rust不知道返回的是 x 还是 y，无法确定生命周期，会发生错误
 // fn longest(x: &str, y: &str) -> &str {}
-// fn longest<'a>(x: &'a str, y: &'b str) -> &'a str
+// fn longest<'a>(x: &'a str, y: &'b str) -> &'a str {}
 ```
 
 > [!NOTE]
 > **生命周期参数**只能标注**生命周期**无法改变**生命周期**。
+> 可以和[[Rust Trait Bound|Trait约束]]中的`where`方式同时使用**Trait**和**生命周期参数**。
 
 使用`'static`标注**引用**可以在整个程序的持续时间内存活。
 ```rust

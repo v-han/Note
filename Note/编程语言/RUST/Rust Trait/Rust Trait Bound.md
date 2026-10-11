@@ -1,5 +1,5 @@
 ---
-updated: 2026-10-03 16:03
+updated: 2026-10-06 14:40
 created: 2026-10-03 15:16
 tags:
 ---
@@ -9,22 +9,26 @@ tags:
 使用[[Rust泛型|泛型]]的方式表示**函数**需要实现指定**Trait**的**参数**。这里需要注意**泛型**的使用，一个T只能使用一种类型。
 ```rust
 // 要求参数 item 实现 Summary 这个 Trait
-fn notify<T: Summary>(item: &T) {
+fn notify<T: Summary>(item: &T) -> &T {
 	// 具体实现
 }
 
 // 要求参数实现 Summary + Display 多个 Trait
-// fn notify<T: Summary + Display>(item: &T)
+// fn notify<T: Summary + Display>(item: &T) {}
 ```
 
 以下为上面使用方式的[[语法糖]]。
 ```rust
-fn notify(item: &impl Summary) {
+fn notify(item: &impl Summary) -> impl Summary {
 	// 具体实现
+	// 编译器会自动推导返回值类型，若有多种可能类型会发生错误
 }
 
 // 要求参数实现 Summary + Display 多个 Trait
-// fn notify(item: &(impl Summary + Display))
+// fn notify(item: &(impl Summary + Display)) {}
+
+// 使用语法糖，不需要通过泛型参数指定输出类型，而是让编译器自己推导
+// fn returns_summarizable() -> impl Summary {}
 ```
 
 使用`where`简化使用多个**Trait约束**函数的定义。
@@ -35,14 +39,6 @@ where
 	U: Display + Clone,
 {
 	// 具体实现
-}
-```
-
-**Rust Trait约束**也能用于返回值类型。
-```rust
-fn returns_summarizable() -> impl Summary {
-	// 具体实现
-	// 只能返回一种类型，若返回结果可能有多种类型会报错
 }
 ```
 

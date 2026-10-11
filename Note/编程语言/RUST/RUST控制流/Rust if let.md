@@ -1,5 +1,5 @@
 ---
-updated: 2026-09-27 20:02
+updated: 2026-10-11 23:50
 created: 2026-09-27 19:52
 tags:
 ---
@@ -16,4 +16,6 @@ if let Some(num_args) = num {
 	println!("None");
 }
 ```
+
+使用`while let`可以进行循环模式匹配。
 # 相关

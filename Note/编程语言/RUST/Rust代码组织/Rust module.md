@@ -1,5 +1,5 @@
 ---
-updated: 2026-10-01 01:27
+updated: 2026-10-07 17:11
 created: 2026-09-30 20:57
 tags:
 ---
@@ -21,5 +21,12 @@ let x = crate::models::user::User;
 use crate::models::user::User;
 
 let x = User;
+```
+
+使用`pub use`可将模块重新导出，方便上级调用。
+```rust
+// 上级可以使用 use models::User 导入
+// 而不是 use models::user::User
+pub use user::User;
 ```
 # 相关
