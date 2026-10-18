@@ -1,10 +1,10 @@
 ---
-updated: 2026-10-07 16:44
+updated: 2026-10-17 18:08
 created: 2026-07-31 20:25
 tags:
 ---
 # 介绍
-**TOML**(Tom's Obvious, Minimal Language)格式，为[[Cargo]]的配置格式。
+**TOML**(Tom's Obvious, Minimal Language)格式，为**Cargo**的配置格式。
 # 使用方式
 区域标题`[package]`，表示下方内容是用来配置包的。
 - **name**：项目名。

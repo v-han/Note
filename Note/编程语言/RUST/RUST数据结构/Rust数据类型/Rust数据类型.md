@@ -1,5 +1,5 @@
 ---
-updated: 2026-10-08 00:38
+updated: 2026-10-13 00:06
 created: 2026-08-01 20:29
 tags:
 ---
@@ -13,7 +13,12 @@ tags:
 
 **Rust**有以下自定义类型：[[Rust Struct|结构体]]、[[Rust Enum|枚举类]]。
 
-[[Rust智能指针]]
+使用`type`为类型起别名。
+```rust
+type num = i32;
+let x: num = 3;
+```
 # 相关
 [[Rust复杂类型]]
+[[Rust智能指针]]
 [[Rust迭代器]]

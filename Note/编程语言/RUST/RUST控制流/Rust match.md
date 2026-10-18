@@ -1,5 +1,5 @@
 ---
-updated: 2026-09-30 14:04
+updated: 2026-10-12 00:10
 created: 2026-09-27 18:11
 tags:
 ---
@@ -23,6 +23,15 @@ let s2 = match &s {
 > `match`匹配时**必须穷举**所有的可能。
 > 
 > 若不需要处理所有的可能模式，可以使用变量接受这个值再进行处理，**或**使用`_`通配符来表示不关心这些值。
+
+使用**匹配守卫**提供进一步的判断。
+```rust
+match num {
+	Some(x) if x % 2 == 0 => println!("{} is even", x),
+	Some(x) => println!("{} is odd", x),
+	None => (),
+}
+```
 # 相关
 如果只需要匹配一种模式而忽略其他的模式，可以使用[[Rust if let|if let]]。
 [[Rust Enum|Rust枚举类]]
