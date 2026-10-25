@@ -1,7 +1,8 @@
 ---
-updated: 2026-10-17 18:07
+updated: 2026-10-23 00:15
 created: 2026-07-31 12:18
 tags:
+  - Language
 ---
 # 介绍
 **Rust**是一种新式的编程语言，和C/C++有着相同的性能。
@@ -23,6 +24,5 @@ tags:
 [[Rust模式]](懒得整理了)
 [[Rust Trait]]
 [[Unsafe Rust]]
-
 # 相关
 [[Rust简介]]
