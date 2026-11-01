@@ -1,5 +1,5 @@
 ---
-updated: 2026-10-24 01:13
+updated: 2026-10-26 14:20
 created: 2026-10-23 23:16
 tags:
 ---
@@ -19,3 +19,4 @@ class MyWidget extends StatelessWidget {
 > [!NOTE]
 > `build`方法由**Flutter**框架自动调用，用于构建用户界面，通常不需要手动调用。当**Widget**需要**构建**或**更新**界面时，**Flutter**会执行对应的`build`方法。
 # 相关
+[[Flutter StatelessWidget生命周期|无状态组件生命周期]]

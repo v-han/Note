@@ -1,5 +1,5 @@
 ---
-updated: 2026-10-24 01:24
+updated: 2026-10-26 14:21
 created: 2026-10-23 23:18
 tags:
 ---
@@ -35,3 +35,4 @@ setState(() {
 });
 ```
 # 相关
+[[Flutter StatefulWidget生命周期|有状态组件生命周期]]

@@ -1,5 +1,5 @@
 ---
-updated: 2026-10-23 23:25
+updated: 2026-10-26 21:21
 created: 2026-10-23 20:01
 tags:
 ---
@@ -13,3 +13,6 @@ tags:
 
 **Flutter**的**Widget**分为[[Flutter StatelessWidget|无状态组件]]和[[Flutter StatefulWidget|有状态组件]]，**Flutter**通过嵌套**Widget**构建界面，这些**Widget**形成的层次结构称为**Widget树**。
 # 相关
+[[Flutter InheritedWidget]]
+[[Flutter Event]]
+[[Flutter容器与布局组件]]
